@@ -23,8 +23,7 @@
         "content": "Chaquetas Rompevientos elaborados en 100% Tela antifluidos, Tela suave, comoda y fresca.",
         "features": [
           "Tiene un suavizado que le brinda la mejor experiencia y confort al usar la prenda. Contienen proceso de estampacion con platisoles de la mas alta calidad, brindando asi la mejor calidad y duración. Solo algunos tienen bordado.",
-          "Bolsillos laterales, Chompa y cierre.",
-          "La prenda viene en su bolsa de empaque individual con sus etiquetas y contramarcas."
+          "Bolsillos laterales, Chompa y cierre."
         ]
       }
     },
@@ -45,7 +44,15 @@
         "/images/17540.jpg",
         "/images/17541.jpg",
         "/images/17542.jpg"
-      ]
+      ],
+      "description": {
+        "title": "ORIGINALES NACIONALES",
+        "content": "Chaquetas Rompevientos elaborados en 100% Tela antifluidos, Tela suave, comoda y fresca.",
+        "features": [
+          "Tiene un suavizado que le brinda la mejor experiencia y confort al usar la prenda. Contienen proceso de estampacion con platisoles de la mas alta calidad, brindando asi la mejor calidad y duración. Solo algunos tienen bordado.",
+          "Bolsillos laterales, Chompa y cierre."
+        ]
+      }
     },
     {
       "name": "Camibuso Ástika Tela Piel de Durazno",
@@ -56,7 +63,15 @@
       "price": 30000,
       "category": "Busos y Camibusos",
       "quantity": 1,
-      "images": ["/images/25340.jpg", "/images/25339.jpg", "/images/25341.jpg"]
+      "images": ["/images/25340.jpg", "/images/25339.jpg", "/images/25341.jpg"],
+      "description": {
+        "title": "ORIGINALES",
+        "content": "Crop Top elaboradas en TELA PIEL DE DURAZNO Poliester 100% (tiene un suavizado que al tocarlo se siente muy suave) brinda frescura, suavidad y un poco de elongación",
+        "features": [
+          "Confeccion nacional de la mejor calidad, altos estándares de confección y de procesos",
+          "La tela es sublimada industrial nativa en calandra con tintas americanas. Todos los procesos con revisiones y controles de calidad, para asi brindar lo mejor."
+        ]
+      }
     },
     {
       "name": "Camibuso Ástika Tela Piel de Durazno",
@@ -67,7 +82,15 @@
       "price": 30000,
       "category": "Busos y Camibusos",
       "quantity": 1,
-      "images": ["/images/25312.jpg", "/images/25313.jpg", "/images/25314.jpg"]
+      "images": ["/images/25312.jpg", "/images/25313.jpg", "/images/25314.jpg"],
+      "description": {
+        "title": "ORIGINALES",
+        "content": "Crop Top elaboradas en TELA PIEL DE DURAZNO Poliester 100% (tiene un suavizado que al tocarlo se siente muy suave) brinda frescura, suavidad y un poco de elongación",
+        "features": [
+          "Confeccion nacional de la mejor calidad, altos estándares de confección y de procesos",
+          "La tela es sublimada industrial nativa en calandra con tintas americanas. Todos los procesos con revisiones y controles de calidad, para asi brindar lo mejor."
+        ]
+      }
     },
     {
       "name": "Camiseta Amers® Print Algodon grueso",
@@ -78,7 +101,15 @@
       "price": 42000,
       "category": "Camisetas",
       "quantity": 1,
-      "images": ["/images/23281.jpg", "/images/23280.jpg", "/images/23282.jpg"]
+      "images": ["/images/23281.jpg", "/images/23280.jpg", "/images/23282.jpg"],
+      "description": {
+        "title": "ORIGINALES ALTA CALIDAD",
+        "content": "Camisetas Tshirt Membership Amers Originales Algodon 100% grueso",
+        "features": [
+          "Confeccion nacional de la mejor calidad, altos estándares de confección y de procesos",
+          "Es un algodón 100% extra fino pima peruano de 200 gramos (grueso). Con un acabado SoftTouch frio que al tocarlo se siente frio y muy suave. La construccion del tejido del algodón permite tener un poco de elongacion sin la necesidad de tener polyester u otro tipo de material"
+        ]
+      }
     },
     {
       "name": "Sudaderas Algodon Hombre Weid",
@@ -95,7 +126,15 @@
         "/images/17226.jpg",
         "/images/17227.jpg",
         "/images/17228.jpg"
-      ]
+      ],
+      "description": {
+        "title": "ORIGINALES",
+        "content": "Sudaderas en burda algodón peruano de alta calidad con acabado suavizado.",
+        "features": [
+          "Composición de Algodon 98% y Spandex 2% le proporcionan un acabado suave, fresco y con un poco de elongación.",
+          "Tiene un suavizado que le brinda la mejor experiencia y confort al usar la prenda. Contienen proceso de estampación con platisoles de la mas alta calidad, brindando asi la mejor calidad y duración."
+        ]
+      }
     }
   ]
 }
