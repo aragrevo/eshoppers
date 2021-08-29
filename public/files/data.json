@@ -1,0 +1,92 @@
+{
+  "clothes": [
+    {
+      "name": "Chaqueta Rompevientos antifluidos",
+      "ref": "RAF04",
+      "size": "S",
+      "color": "Rosa",
+      "gender": "Femenino",
+      "price": 45000,
+      "category": "rompevientos",
+      "quantity": 1,
+      "images": [
+        "/images/17545.jpg",
+        "/images/17543.jpg",
+        "/images/17544.jpg",
+        "/images/17546.jpg",
+        "/images/17547.jpg",
+        "/images/17548.jpg",
+        "/images/17549.jpg"
+      ]
+    },
+    {
+      "name": "Chaqueta Rompevientos antifluidos",
+      "ref": "RAF03",
+      "size": "M",
+      "color": "Fucsia",
+      "gender": "Femenino",
+      "price": 45000,
+      "category": "rompevientos",
+      "quantity": 1,
+      "images": [
+        "/images/17538.jpg",
+        "/images/17536.jpg",
+        "/images/17537.jpg",
+        "/images/17539.jpg",
+        "/images/17540.jpg",
+        "/images/17541.jpg",
+        "/images/17542.jpg"
+      ]
+    },
+    {
+      "name": "Camibuso Ástika Tela Piel de Durazno",
+      "ref": "CBAMB02",
+      "size": "Único",
+      "color": "Blanco",
+      "gender": "Femenino",
+      "price": 30000,
+      "category": "Busos y Camibusos",
+      "quantity": 1,
+      "images": ["/images/25340.jpg", "/images/25339.jpg", "/images/25341.jpg"]
+    },
+    {
+      "name": "Camibuso Ástika Tela Piel de Durazno",
+      "ref": "CBAMB07",
+      "size": "Único",
+      "color": "Blanco",
+      "gender": "Femenino",
+      "price": 30000,
+      "category": "Busos y Camibusos",
+      "quantity": 1,
+      "images": ["/images/25312.jpg", "/images/25313.jpg", "/images/25314.jpg"]
+    },
+    {
+      "name": "Camiseta Amers® Print Algodon grueso",
+      "ref": "AMHC63",
+      "size": "L",
+      "color": "Café",
+      "gender": "Masculino",
+      "price": 42000,
+      "category": "Camisetas",
+      "quantity": 1,
+      "images": ["/images/23281.jpg", "/images/23280.jpg", "/images/23282.jpg"]
+    },
+    {
+      "name": "Sudaderas Algodon Hombre Weid",
+      "ref": "SWN40",
+      "size": "L",
+      "color": "Negro",
+      "gender": "Masculino",
+      "price": 51000,
+      "category": "Sudaderas",
+      "quantity": 1,
+      "images": [
+        "/images/17224.jpg",
+        "/images/17225.jpg",
+        "/images/17226.jpg",
+        "/images/17227.jpg",
+        "/images/17228.jpg"
+      ]
+    }
+  ]
+}
