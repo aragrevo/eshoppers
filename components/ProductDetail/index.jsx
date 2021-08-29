@@ -13,9 +13,15 @@ const ProductDetail = ({product}) => {
   return (
     <>
       <ProductDetailCarrousel images={images} />
-      <Title level={4}>{name}</Title>
-      <ProductPrice price={price} color={color} size={size} />
-      <ProductDescription title={description?.title} content={description?.content} features={description?.features} />
+      <div style={{padding: "1.5rem"}}>
+        <Title level={4}>{name}</Title>
+        <ProductPrice price={price} color={color} size={size} />
+        <ProductDescription
+          title={description?.title}
+          content={description?.content}
+          features={description?.features}
+        />
+      </div>
     </>
   );
 };

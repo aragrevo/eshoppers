@@ -16,6 +16,7 @@ const ProductList = ({loading, products}) => {
     <>
       <List
         loading={loading}
+        style={{maxWidth: "1280px", margin: "0 auto"}}
         grid={{gutter: 16, xs: 1, md: 2, lg: 3, xl: 4}}
         dataSource={products}
         renderItem={item => <ProductItem handleSelectProduct={handleClick} product={item} />}

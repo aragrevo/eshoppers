@@ -10,7 +10,7 @@ const ProductItem = ({handleSelectProduct, product}) => {
   return (
     <List.Item>
       <Card
-        style={{marginTop: 16}}
+        style={{marginTop: 16, minWidth: "300px"}}
         onClick={() => handleSelectProduct(product)}
         hoverable
         cover={<Image alt={product.name} src={product.images[0]} layout='responsive' width={500} height={500} />}>
