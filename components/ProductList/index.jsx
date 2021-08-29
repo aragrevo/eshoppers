@@ -1,15 +1,16 @@
-import {List, Modal} from "antd";
-import {useState} from "react";
-import {ProductItem} from "../ProductItem";
+import React, {useCallback, useState} from "react";
+import {List} from "antd";
+import ProductItem from "../ProductItem";
+import {ModalProduct} from "../ModalProduct";
 
-export const ProductList = ({loading, products}) => {
+const ProductList = ({loading, products}) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [product, setProduct] = useState(undefined);
 
-  const handleClick = item => {
+  const handleClick = useCallback(item => {
     setProduct(item);
     setIsModalVisible(true);
-  };
+  }, []);
 
   return (
     <>
@@ -19,14 +20,9 @@ export const ProductList = ({loading, products}) => {
         dataSource={products}
         renderItem={item => <ProductItem handleSelectProduct={handleClick} product={item} />}
       />
-      <Modal
-        centered
-        title={product?.name}
-        footer={null}
-        visible={isModalVisible}
-        onCancel={() => setIsModalVisible(false)}>
-        <p>{JSON.stringify(product)}</p>
-      </Modal>
+      <ModalProduct visible={isModalVisible} onCancel={() => setIsModalVisible(false)} product={product} />
     </>
   );
 };
+
+export default React.memo(ProductList);

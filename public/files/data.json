@@ -4,7 +4,7 @@
       "name": "Chaqueta Rompevientos antifluidos",
       "ref": "RAF04",
       "size": "S",
-      "color": "Rosa",
+      "color": "Pink",
       "gender": "Femenino",
       "price": 45000,
       "category": "rompevientos",
@@ -17,13 +17,22 @@
         "/images/17547.jpg",
         "/images/17548.jpg",
         "/images/17549.jpg"
-      ]
+      ],
+      "description": {
+        "title": "ORIGINALES NACIONALES",
+        "content": "Chaquetas Rompevientos elaborados en 100% Tela antifluidos, Tela suave, comoda y fresca.",
+        "features": [
+          "Tiene un suavizado que le brinda la mejor experiencia y confort al usar la prenda. Contienen proceso de estampacion con platisoles de la mas alta calidad, brindando asi la mejor calidad y duración. Solo algunos tienen bordado.",
+          "Bolsillos laterales, Chompa y cierre.",
+          "La prenda viene en su bolsa de empaque individual con sus etiquetas y contramarcas."
+        ]
+      }
     },
     {
       "name": "Chaqueta Rompevientos antifluidos",
       "ref": "RAF03",
       "size": "M",
-      "color": "Fucsia",
+      "color": "Fuchsia",
       "gender": "Femenino",
       "price": 45000,
       "category": "rompevientos",
@@ -42,7 +51,7 @@
       "name": "Camibuso Ástika Tela Piel de Durazno",
       "ref": "CBAMB02",
       "size": "Único",
-      "color": "Blanco",
+      "color": "White",
       "gender": "Femenino",
       "price": 30000,
       "category": "Busos y Camibusos",
@@ -53,7 +62,7 @@
       "name": "Camibuso Ástika Tela Piel de Durazno",
       "ref": "CBAMB07",
       "size": "Único",
-      "color": "Blanco",
+      "color": "White",
       "gender": "Femenino",
       "price": 30000,
       "category": "Busos y Camibusos",
@@ -64,7 +73,7 @@
       "name": "Camiseta Amers® Print Algodon grueso",
       "ref": "AMHC63",
       "size": "L",
-      "color": "Café",
+      "color": "Brown",
       "gender": "Masculino",
       "price": 42000,
       "category": "Camisetas",
@@ -75,7 +84,7 @@
       "name": "Sudaderas Algodon Hombre Weid",
       "ref": "SWN40",
       "size": "L",
-      "color": "Negro",
+      "color": "Black",
       "gender": "Masculino",
       "price": 51000,
       "category": "Sudaderas",

@@ -4,7 +4,7 @@ import Head from "next/head";
 import {Layout, BackTop, Skeleton} from "antd";
 
 import {CustomHeader} from "../components/CustomHeader/CustomHeader";
-import {ProductList} from "../components/ProductList";
+import ProductList from "../components/ProductList";
 
 import products from "../public/files/data.json";
 const {Content, Footer} = Layout;

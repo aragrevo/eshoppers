@@ -1,9 +1,12 @@
+import React from "react";
 import Image from "next/image";
-import {Card, Avatar, List, Statistic} from "antd";
+
+import {Card, List} from "antd";
+import {ProductPrice} from "../ProductPrice";
+
 const {Meta} = Card;
 
-export const ProductItem = ({handleSelectProduct, product}) => {
-  console.log("Render Product");
+const ProductItem = ({handleSelectProduct, product}) => {
   return (
     <List.Item>
       <Card
@@ -13,14 +16,11 @@ export const ProductItem = ({handleSelectProduct, product}) => {
         cover={<Image alt={product.name} src={product.images[0]} layout='responsive' width={500} height={500} />}>
         <Meta
           title={product.name}
-          description={
-            <div style={{display: "flex", justifyContent: "space-between", alignItems: "center"}}>
-              <Statistic value={product.price} valueStyle={{color: "#3f8600"}} prefix='COP$' />
-              <Avatar style={{backgroundColor: "#3f8600", verticalAlign: "middle"}}>{product.size}</Avatar>
-            </div>
-          }
+          description={<ProductPrice price={product.price} color={product.color} size={product.size} />}
         />
       </Card>
     </List.Item>
   );
 };
+
+export default React.memo(ProductItem);
