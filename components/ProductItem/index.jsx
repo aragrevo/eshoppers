@@ -13,10 +13,14 @@ const ProductItem = ({handleSelectProduct, product}) => {
         style={{marginTop: 16, minWidth: "300px"}}
         onClick={() => handleSelectProduct(product)}
         hoverable
-        cover={<Image alt={product.name} src={product.images[0]} layout='responsive' width={500} height={500} />}>
+        cover={
+          product.images[0] ? (
+            <Image alt={product.name} src={product.images[0]} layout='responsive' width={500} height={500} />
+          ) : null
+        }>
         <Meta
           title={product.name}
-          description={<ProductPrice price={product.price} color={product.color} size={product.size} />}
+          description={<ProductPrice price={product.price} color={product.colorHex} size={product.size} />}
         />
       </Card>
     </List.Item>
